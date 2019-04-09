@@ -88,7 +88,7 @@
 </main><!-- /.container -->
 
 <footer class="blog-footer">
-  <p><?php echo ($this->params->get('copyright_text') ?: 'Copyright Joomla 2019') ?></p>
+  <p>&copy; <?php echo ($this->params->get('copyright_year') ?: date('Y')); ?> Joomla</p>
 </footer>
 </body>
 </html>

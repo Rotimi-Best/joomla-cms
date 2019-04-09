@@ -31,10 +31,13 @@
                         label="Blog Name"
                         description="Enter your blog name"
                 />
-                <field name="copyright_text"
-                        type="text"
-                        label="Copyright Text"
-                        description="Enter your copyright text"
+                <field name="copyright_year"
+                        type="copyrightyear"
+                        label="Copyright Year"
+                        description="Enter your copyright year"
+						maxlength="4"
+						hint="2019"
+						filter="integer"
                 />
             </fieldset>
 		</fields>
