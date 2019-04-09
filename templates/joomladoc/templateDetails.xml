@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="template" method="upgrade" client="site">
+	<name>joomladoc</name>
+	<version>1.0</version>
+	<creationDate>08/04/2019</creationDate>
+	<author>Ibitoye Rotimi Best</author>
+	<authorEmail>rotimiibitoyeemma@gmail.com</authorEmail>
+	<copyright>Copyright 2019, All rights reserved.</copyright>
+	<description>Joomla Doc Template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	
+	<positions>
+		<position>nav</position>
+		<position>left</position>
+		<position>right</position>
+	</positions>
+
+	<config>
+		<fields name="params">
+			<fieldset name="general" label="General">
+                <field name="blog_name"
+                        type="text"
+                        label="Blog Name"
+                        description="Enter your blog name"
+                />
+                <field name="copyright_text"
+                        type="text"
+                        label="Copyright Text"
+                        description="Enter your copyright text"
+                />
+            </fieldset>
+		</fields>
+	</config>
+</extension>
